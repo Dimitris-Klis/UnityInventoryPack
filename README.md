@@ -1,5 +1,5 @@
 <h1>My Inventory Pack</h1>
-<b>Heads-up: All scripts were written C#</b>
+<b>Heads-up: All scripts were written in C#</b>
 <h2>Contents</h2>
 <h3>This Inventory Pack Includes:</h3>
 <ol>
@@ -24,3 +24,4 @@
 </p>
 Let's see how a pickup script would look like:
 <hr>
+https://github.com/Dimitris-Klis/UnityInventoryPack/blob/e32ffce786e39b38c4e4ba41c725cfc2dd104335/Assets/Scenes/Example/Example%20Assets/Pickup.cs

@@ -22,33 +22,5 @@
   script as <em>InventoryUIHandler.instance.inventorySystem</em> and calling <em>"AddItem(item (Item), amount (int))"</em>
   or <em>"RemoveItem(item (Item), amount (int))"</em>. <b>Make sure the item exists!</b>
 </p>
-You're going to have to make your own pickup script (2D or 3D) which could look a bit like this:
+Let's see how a pickup script would look like:
 <hr>
-using UnityEngine;
-public class Pickup: Monobehavior
-{
-  //This is a 2D example
-  [SerializeField] int AmountToGive;
-  [SerializeField] Item itemToGive;
-  [Space]
-  [SerializeField] LayerMask PlayerMask;
-  [SerializeField] float PickupRadius;
-  [SerializeField] KeyCode InteractionKeyCode = KeyCode.E;
-  void OnDrawGizmos()
-  {
-    Gizmos.DrawWireSphere(transform.position, PickupRadius);
-  }
-  void Update()
-  {
-    if(Physics2D.OverlapCircle((Vector2)transform.position, PickupRadius, PlayerMask))
-    {
-      //If We have enough space for an item and we press 'e' (or any other keyCode we want).
-      if(Input.GetKeyDown(InteractionKeyCode) && CheckSpaceForItem(itemToGive) >= AmountToGive)
-      {
-        //Add the item to the inventory.
-        InventoryUIHandler.instance.inventorySystem.Add(itemToGive, AmountToGive);
-        Destroy(this.gameObject);
-      }
-    }
-  }
-}

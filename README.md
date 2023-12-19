@@ -24,4 +24,5 @@
 </p>
 Let's see how a pickup script would look like:
 <hr>
-https://github.com/Dimitris-Klis/UnityInventoryPack/blob/e32ffce786e39b38c4e4ba41c725cfc2dd104335/Assets/Scenes/Example/Example%20Assets/Pickup.cs
+
+[https://github.com/Dimitris-Klis/UnityInventoryPack/blob/e32ffce786e39b38c4e4ba41c725cfc2dd104335/Assets/Scenes/Example/Example%20Assets/Pickup.cs](https://github.com/Dimitris-Klis/UnityInventoryPack/blob/ac063f332c91e0bfebbc775ff47778bd75920d0e/Assets/Scenes/Example/Example%20Assets/Pickup.cs#L1-L29)https://github.com/Dimitris-Klis/UnityInventoryPack/blob/ac063f332c91e0bfebbc775ff47778bd75920d0e/Assets/Scenes/Example/Example%20Assets/Pickup.cs#L1-L29

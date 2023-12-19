@@ -8,4 +8,10 @@
   <li>A Hotbar System</li>
   <li>A tooltip</li>
 </ol>
-<input type="submit">
+
+<h2>Documentation:</h2>
+<p>
+  If you want to add or remove items from the inventory (in code), you can simply find the <u>Inventory System</u>
+  script in the <em>InventoryUIHandler.instance.inventorySystem</em> and calling <em>"AddItem(item (Item), amount (int))"</em>
+  or <em>"RemoveItem(item (Item), amount (int))"</em>. <b>Make sure the item exists!</b>
+</p>

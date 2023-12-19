@@ -8,3 +8,4 @@
   <li>A Hotbar System</li>
   <li>A tooltip</li>
 </ol>
+<input type="submit">

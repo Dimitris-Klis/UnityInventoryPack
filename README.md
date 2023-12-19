@@ -1,5 +1,5 @@
 <h1>My Inventory Pack</h1>
-<b>Heads-up: All scripts were written in C#</b>
+<b>Heads-up: All scripts are written in C#</b>
 <h2>Contents</h2>
 <h3>This Inventory Pack Includes:</h3>
 <ol>

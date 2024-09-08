@@ -13,14 +13,16 @@
 <h3>Adding & Removing Items</h3>
 <p>
   If you want to add or remove items from the inventory (in code), find the <u>Inventory System</u>
-  script with <em>InventoryUIHandler.instance.inventorySystem</em> and call <em>"CountItemAmount(item (Item))"</em>.<br>
+  script with <em>InventoryUIHandler.instance.inventorySystem</em> and call <em>"AddItem(item (Item)"</em>.<br>
+  <br><br>
   If you instead want to check how much space there is for an item, call <em>"CheckSpaceForItem(item (Item))"</em> instead.
+  <br><br>
+  Use <em>"RemoveItem(item (Item), amount (int))"</em> to remove an item.
 </p>
 <h3>Checking for items and for item space</h3>
 <p>
   If you want to check how many items are in your inventory, you can simply find the <u>Inventory System</u>
-  script as <em>InventoryUIHandler.instance.inventorySystem</em> and calling <em>"AddItem(item (Item), amount (int))"</em>
-  or <em>"RemoveItem(item (Item), amount (int))"</em>. <b>Make sure the item exists!</b>
+  script as <em>InventoryUIHandler.instance.inventorySystem</em> and calling <em>"CountItemAmount(item (Item))"</em> , amount (int))"</em>. <b>Make sure the item exists!</b>
 </p>
 Let's see how a pickup script would look like:
 <hr>
